@@ -1,0 +1,25 @@
+.side {
+   display: grid;
+   margin-top: 10rem;
+   position: fixed;
+}
+
+.sideBtn {
+   display: flex;
+   justify-content: space-between;
+   width: 3.5rem;
+   margin-top: 0.4rem;
+}
+
+.sideBtn:hover {
+   width: 14rem;
+}
+
+.sideBtn > p {
+   display: none;
+   margin: auto 0px;
+}
+
+.sideBtn:hover p {
+   display: block;
+}

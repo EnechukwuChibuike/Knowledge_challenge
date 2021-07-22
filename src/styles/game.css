@@ -1,0 +1,91 @@
+.gameMain {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.gameSub {
+   display: flex;
+   height: 90vh;
+   width: 80vw;
+   border: 2px solid rgb(4, 149, 206);
+   border-radius: 50px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.QandA {
+   width: 60vw;
+   height: 89.5vh;
+   border-right: 2px solid rgb(4, 149, 206);
+}
+
+.holder {
+   display: flex;
+   justify-content: space-between;
+}
+
+.lifeTime > Button {
+   margin-right: 1rem;
+   color: rgb(255, 166, 0);
+   font-weight: bolder;
+   font-size: 1.5rem;
+   border-radius: 40px;
+   margin-top: 10px;
+}
+
+.questionDiv {
+   display: grid;
+   justify-content: center;
+}
+
+.question {
+   display: flex;
+   align-items: center;
+   padding: 0px 20px;
+   width: 42rem;
+   height: 5rem;
+   border: 2px solid rgb(4, 149, 206);
+   border-radius: 60px;
+   color: rgb(255, 166, 0);
+}
+
+.answers {
+   width: 42rem;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.answers button {
+   display: flex;
+   align-items: center;
+   height: 3rem;
+   width: 20rem;
+   color: rgb(255, 166, 0);
+   padding: 10px;
+   border: 2px solid rgb(4, 149, 206);
+   border-radius: 60px;
+   margin: 0.5rem;
+   background-color: transparent;
+   text-align: left;
+   font-size: 20px;
+}
+
+/* .answers button::first-letter {
+   color: 
+   font-weight: bolder;
+} */
+
+.money {
+   width: 20vw;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+
+.money h5 {
+   margin: 10px 0px;
+   color: rgb(255, 166, 0);
+}
