@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Knowledge_challenge/static/css/main.98879ab7.chunk.css",
+    "main.css": "/Knowledge_challenge/static/css/main.dadcdddd.chunk.css",
     "main.js": "/Knowledge_challenge/static/js/main.92bdce19.chunk.js",
     "main.js.map": "/Knowledge_challenge/static/js/main.92bdce19.chunk.js.map",
     "runtime-main.js": "/Knowledge_challenge/static/js/runtime-main.6b89d948.js",
@@ -10,14 +10,14 @@
     "static/js/3.605d3d2b.chunk.js": "/Knowledge_challenge/static/js/3.605d3d2b.chunk.js",
     "static/js/3.605d3d2b.chunk.js.map": "/Knowledge_challenge/static/js/3.605d3d2b.chunk.js.map",
     "index.html": "/Knowledge_challenge/index.html",
-    "static/css/main.98879ab7.chunk.css.map": "/Knowledge_challenge/static/css/main.98879ab7.chunk.css.map",
+    "static/css/main.dadcdddd.chunk.css.map": "/Knowledge_challenge/static/css/main.dadcdddd.chunk.css.map",
     "static/js/2.e01f38ea.chunk.js.LICENSE.txt": "/Knowledge_challenge/static/js/2.e01f38ea.chunk.js.LICENSE.txt",
     "static/media/wwbm.875d80db.png": "/Knowledge_challenge/static/media/wwbm.875d80db.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6b89d948.js",
     "static/js/2.e01f38ea.chunk.js",
-    "static/css/main.98879ab7.chunk.css",
+    "static/css/main.dadcdddd.chunk.css",
     "static/js/main.92bdce19.chunk.js"
   ]
 }
