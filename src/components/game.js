@@ -4,7 +4,9 @@ import { TelephoneFill } from "react-bootstrap-icons";
 import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../assets/wwbm.png";
 import { useEffect, useState } from "react";
+
 import "../styles/game.css";
+import CustomQuestions from "./customQuestions";
 
 function Game() {
    const money = [
@@ -16,7 +18,7 @@ function Game() {
       "$ 16 000",
       "$ 8 000",
       "$ 4 000",
-      "$ 2000",
+      "$ 2 000",
       "$ 1 000",
       "$ 500",
       "$ 300",
@@ -27,15 +29,16 @@ function Game() {
    const [data, setdata] = useState([]);
    const [currentQuestion, setCurrentQuestion] = useState(0);
    const [moneyLadder, setMoneyLadder] = useState(15);
+   const [moneyLadderMobile, setmoneyLadderMobile] = useState(false);
 
    const shuffle = (arr) => arr.sort(() => Math.random() - 0.5);
-   const questionsArr = [];
    const sort = (arr) => arr.sort(() => Math.random() - 0.5);
+   const questionsArr = [];
 
    useEffect(() => {
       const fetchData = () => {
          return fetch(
-            "https://opentdb.com/api.php?amount=50&category=9&difficulty=medium&type=multiple"
+            "https://opentdb.com/api.php?amount=50&category=9&easy=medium&type=multiple"
          )
             .then((response) => response.json())
             .then((data) => {
@@ -58,15 +61,22 @@ function Game() {
       fetchData();
    }, []);
 
-   const handleClick = (option) => {
-      const nextQuestion = currentQuestion + 1;
-      if (data[currentQuestion].answer === option) {
-         setCurrentQuestion(nextQuestion);
-         setMoneyLadder(moneyLadder - 1);
-      } else {
-         alert("Get lost!");
-         setCurrentQuestion(0);
-      }
+   const fiftyFifty = () => {
+      data[currentQuestion].options.splice(0, 2);
+      // while (data[currentQuestion].options.length) {
+      //    let index = Math.floor(
+      //       Math.random() * data[currentQuestion].options.length
+      //    );
+      //    console.log(index);
+      //    console.log(data[currentQuestion].options[index]);
+
+      // for (let i = data[currentQuestion].options.length - 1; i >= 0; i--) {
+      //    data[currentQuestion].options.splice(
+      //       Math.floor(Math.random() * data[currentQuestion].options.length),
+      //       1
+      //    );
+      //    console.log(data[currentQuestion].options);
+      // }
    };
 
    return (
@@ -76,10 +86,12 @@ function Game() {
                <div className="QandA">
                   <div className="holder">
                      <div className="logoDiv">
-                        <img src={Logo} alt="logo" />
+                        <img src={Logo} alt="logo" width="200" />
                      </div>
                      <div className="lifeTime">
-                        <Button>50/50</Button>
+                        <Button className="" onClick={fiftyFifty}>
+                           50/50
+                        </Button>
                         <Button>
                            <TelephoneFill />
                         </Button>
@@ -94,7 +106,7 @@ function Game() {
                         <div>
                            <div className="mt-5">
                               <div className="question">
-                                 <h4
+                                 <h5
                                     dangerouslySetInnerHTML={{
                                        __html: data[currentQuestion].question,
                                     }}
@@ -104,31 +116,31 @@ function Game() {
                            <div className="answers">
                               {data[currentQuestion].options.map(
                                  (option, index) => (
-                                    <button
-                                       className={
-                                          data[currentQuestion].answer ===
-                                          option
-                                             ? "bg-success"
-                                             : ""
+                                    <CustomQuestions
+                                       data={data}
+                                       option={option}
+                                       index={index}
+                                       setMoneyLadder={setMoneyLadder}
+                                       moneyLadder={moneyLadder}
+                                       setmoneyLadderMobile={
+                                          setmoneyLadderMobile
                                        }
-                                       key={index}
-                                       onClick={() => handleClick(option)}
-                                       dangerouslySetInnerHTML={{
-                                          __html: `${index})  ${option}`,
-                                       }}
-                                    ></button>
+                                       setCurrentQuestion={setCurrentQuestion}
+                                       currentQuestion={currentQuestion}
+                                    />
                                  )
                               )}
                            </div>
                         </div>
                      )}
-                     {currentQuestion === 15 &&
+                     {currentQuestion === 14 &&
                         (alert(
                            "Congratulations!! You just won 1 million naira"
                         ),
                         setCurrentQuestion(0),
-                        setdata(sort(questionsArr)),
-                        setMoneyLadder(15))}
+                        data[currentQuestion],
+                        setMoneyLadder(15),
+                        window.location.reload())}
                   </div>
                </div>
 
@@ -136,9 +148,10 @@ function Game() {
                   <div>
                      {money.map((money, index) => (
                         <h5
+                           key={index}
                            className={
-                              moneyLadder === index + 1 && moneyLadder >= 1
-                                 ? "bg-warning"
+                              moneyLadder === index + 1
+                                 ? "bg-warning text-white p-1"
                                  : ""
                            }
                         >
@@ -148,6 +161,22 @@ function Game() {
                   </div>
                </div>
             </div>
+            {moneyLadderMobile === true && (
+               <div className="moneyMobile">
+                  {money.map((money, index) => (
+                     <h5
+                        key={index}
+                        className={
+                           moneyLadder === index + 1
+                              ? "bg-warning text-white p-1"
+                              : ""
+                        }
+                     >
+                        {money}
+                     </h5>
+                  ))}
+               </div>
+            )}
          </div>
       </>
    );

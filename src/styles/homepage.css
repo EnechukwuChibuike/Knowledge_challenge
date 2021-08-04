@@ -6,3 +6,13 @@
 .welcome {
    width: 70vw;
 }
+
+@media only screen and (max-width: 680px) {
+   .welcome {
+      width: 80vw;
+   }
+   .home {
+      padding-top: 5rem;
+      height: 30vh;
+   }
+}

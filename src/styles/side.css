@@ -23,3 +23,9 @@
 .sideBtn:hover p {
    display: block;
 }
+
+@media only screen and (max-width: 680px) {
+   .sideBtn {
+      width: 3rem;
+   }
+}
