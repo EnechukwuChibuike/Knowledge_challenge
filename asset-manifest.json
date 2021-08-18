@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Knowledge_challenge/static/css/main.8b0c24eb.chunk.css",
-    "main.js": "/Knowledge_challenge/static/js/main.ff04bef1.chunk.js",
-    "main.js.map": "/Knowledge_challenge/static/js/main.ff04bef1.chunk.js.map",
-    "runtime-main.js": "/Knowledge_challenge/static/js/runtime-main.6b89d948.js",
-    "runtime-main.js.map": "/Knowledge_challenge/static/js/runtime-main.6b89d948.js.map",
-    "static/js/2.548bc5e4.chunk.js": "/Knowledge_challenge/static/js/2.548bc5e4.chunk.js",
-    "static/js/2.548bc5e4.chunk.js.map": "/Knowledge_challenge/static/js/2.548bc5e4.chunk.js.map",
-    "static/js/3.605d3d2b.chunk.js": "/Knowledge_challenge/static/js/3.605d3d2b.chunk.js",
-    "static/js/3.605d3d2b.chunk.js.map": "/Knowledge_challenge/static/js/3.605d3d2b.chunk.js.map",
+    "main.css": "/Knowledge_challenge/static/css/main.937c212c.chunk.css",
+    "main.js": "/Knowledge_challenge/static/js/main.6ad7f9cb.chunk.js",
+    "main.js.map": "/Knowledge_challenge/static/js/main.6ad7f9cb.chunk.js.map",
+    "runtime-main.js": "/Knowledge_challenge/static/js/runtime-main.2c463bc3.js",
+    "runtime-main.js.map": "/Knowledge_challenge/static/js/runtime-main.2c463bc3.js.map",
+    "static/js/2.c9f9ca8c.chunk.js": "/Knowledge_challenge/static/js/2.c9f9ca8c.chunk.js",
+    "static/js/2.c9f9ca8c.chunk.js.map": "/Knowledge_challenge/static/js/2.c9f9ca8c.chunk.js.map",
+    "static/js/3.203cd6f7.chunk.js": "/Knowledge_challenge/static/js/3.203cd6f7.chunk.js",
+    "static/js/3.203cd6f7.chunk.js.map": "/Knowledge_challenge/static/js/3.203cd6f7.chunk.js.map",
     "index.html": "/Knowledge_challenge/index.html",
-    "static/css/main.8b0c24eb.chunk.css.map": "/Knowledge_challenge/static/css/main.8b0c24eb.chunk.css.map",
-    "static/js/2.548bc5e4.chunk.js.LICENSE.txt": "/Knowledge_challenge/static/js/2.548bc5e4.chunk.js.LICENSE.txt",
+    "static/css/main.937c212c.chunk.css.map": "/Knowledge_challenge/static/css/main.937c212c.chunk.css.map",
+    "static/js/2.c9f9ca8c.chunk.js.LICENSE.txt": "/Knowledge_challenge/static/js/2.c9f9ca8c.chunk.js.LICENSE.txt",
     "static/media/wwbm.875d80db.png": "/Knowledge_challenge/static/media/wwbm.875d80db.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b89d948.js",
-    "static/js/2.548bc5e4.chunk.js",
-    "static/css/main.8b0c24eb.chunk.css",
-    "static/js/main.ff04bef1.chunk.js"
+    "static/js/runtime-main.2c463bc3.js",
+    "static/js/2.c9f9ca8c.chunk.js",
+    "static/css/main.937c212c.chunk.css",
+    "static/js/main.6ad7f9cb.chunk.js"
   ]
 }
