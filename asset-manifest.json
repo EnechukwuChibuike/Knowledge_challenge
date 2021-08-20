@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/Knowledge_challenge/static/css/main.937c212c.chunk.css",
-    "main.js": "/Knowledge_challenge/static/js/main.6ad7f9cb.chunk.js",
-    "main.js.map": "/Knowledge_challenge/static/js/main.6ad7f9cb.chunk.js.map",
-    "runtime-main.js": "/Knowledge_challenge/static/js/runtime-main.2c463bc3.js",
-    "runtime-main.js.map": "/Knowledge_challenge/static/js/runtime-main.2c463bc3.js.map",
-    "static/js/2.c9f9ca8c.chunk.js": "/Knowledge_challenge/static/js/2.c9f9ca8c.chunk.js",
-    "static/js/2.c9f9ca8c.chunk.js.map": "/Knowledge_challenge/static/js/2.c9f9ca8c.chunk.js.map",
-    "static/js/3.203cd6f7.chunk.js": "/Knowledge_challenge/static/js/3.203cd6f7.chunk.js",
-    "static/js/3.203cd6f7.chunk.js.map": "/Knowledge_challenge/static/js/3.203cd6f7.chunk.js.map",
+    "main.css": "/Knowledge_challenge/static/css/main.d329fbfd.chunk.css",
+    "main.js": "/Knowledge_challenge/static/js/main.0badc91b.chunk.js",
+    "main.js.map": "/Knowledge_challenge/static/js/main.0badc91b.chunk.js.map",
+    "runtime-main.js": "/Knowledge_challenge/static/js/runtime-main.ee49e4e8.js",
+    "runtime-main.js.map": "/Knowledge_challenge/static/js/runtime-main.ee49e4e8.js.map",
+    "static/js/2.a1e18e55.chunk.js": "/Knowledge_challenge/static/js/2.a1e18e55.chunk.js",
+    "static/js/2.a1e18e55.chunk.js.map": "/Knowledge_challenge/static/js/2.a1e18e55.chunk.js.map",
+    "static/js/3.70808271.chunk.js": "/Knowledge_challenge/static/js/3.70808271.chunk.js",
+    "static/js/3.70808271.chunk.js.map": "/Knowledge_challenge/static/js/3.70808271.chunk.js.map",
+    "static/js/4.db017696.chunk.js": "/Knowledge_challenge/static/js/4.db017696.chunk.js",
+    "static/js/4.db017696.chunk.js.map": "/Knowledge_challenge/static/js/4.db017696.chunk.js.map",
     "index.html": "/Knowledge_challenge/index.html",
-    "static/css/main.937c212c.chunk.css.map": "/Knowledge_challenge/static/css/main.937c212c.chunk.css.map",
-    "static/js/2.c9f9ca8c.chunk.js.LICENSE.txt": "/Knowledge_challenge/static/js/2.c9f9ca8c.chunk.js.LICENSE.txt",
+    "static/css/main.d329fbfd.chunk.css.map": "/Knowledge_challenge/static/css/main.d329fbfd.chunk.css.map",
+    "static/js/2.a1e18e55.chunk.js.LICENSE.txt": "/Knowledge_challenge/static/js/2.a1e18e55.chunk.js.LICENSE.txt",
+    "static/js/3.70808271.chunk.js.LICENSE.txt": "/Knowledge_challenge/static/js/3.70808271.chunk.js.LICENSE.txt",
+    "static/media/correctAnswer.160572d7.mp3": "/Knowledge_challenge/static/media/correctAnswer.160572d7.mp3",
+    "static/media/countdown.8ee3da02.mp3": "/Knowledge_challenge/static/media/countdown.8ee3da02.mp3",
+    "static/media/finalAnswer.bcf988e1.mp3": "/Knowledge_challenge/static/media/finalAnswer.bcf988e1.mp3",
+    "static/media/wrongAnswer.e9468218.mp3": "/Knowledge_challenge/static/media/wrongAnswer.e9468218.mp3",
     "static/media/wwbm.875d80db.png": "/Knowledge_challenge/static/media/wwbm.875d80db.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c463bc3.js",
-    "static/js/2.c9f9ca8c.chunk.js",
-    "static/css/main.937c212c.chunk.css",
-    "static/js/main.6ad7f9cb.chunk.js"
+    "static/js/runtime-main.ee49e4e8.js",
+    "static/js/2.a1e18e55.chunk.js",
+    "static/css/main.d329fbfd.chunk.css",
+    "static/js/main.0badc91b.chunk.js"
   ]
 }
